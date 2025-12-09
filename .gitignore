@@ -1,0 +1,32 @@
+# Archivos sensibles
+config/config.json
+*.env
+
+# Base de datos
+db/*.db
+db/*.sqlite
+
+# Logs
+logs/*.log
+
+# Media temporal
+media/*
+!media/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+
+# Modelos de voz
+model/
+
+# Sistema
+.DS_Store
+*.swp
+*.swo

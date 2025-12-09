@@ -1,0 +1,35 @@
+{
+  "telegram": {
+    "token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+    "authorized_users": [YOUR_USER_ID_HERE]
+  },
+  "security": {
+    "motion_detection": true,
+    "alert_on_motion": true,
+    "camera_device": "/dev/video0"
+  },
+  "commands_whitelist": [
+    "ls",
+    "df -h",
+    "free -h",
+    "uptime",
+    "vcgencmd measure_temp",
+    "systemctl status",
+    "pm2 list",
+    "git status",
+    "./scripts/backup.sh"
+  ],
+  "gpio": {
+    "enabled": true,
+    "pins": {
+      "led": 17,
+      "buzzer": 27,
+      "motion_sensor": 4
+    }
+  },
+  "paths": {
+    "logs": "./logs",
+    "media": "./media",
+    "db": "./db/bot.db"
+  }
+}

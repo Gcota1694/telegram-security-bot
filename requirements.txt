@@ -1,0 +1,5 @@
+python-telegram-bot==20.7
+opencv-python==4.8.1.78
+numpy==1.24.3
+vosk==0.3.45
+gpiozero==2.0
